@@ -1,7 +1,5 @@
-html {
-}
 body {
-  width: 70%;
+  /* width: 70%; */
 }
 nav li {
   display: inline;
@@ -21,10 +19,16 @@ header h1 {
   background-color: #4aaaa5;
   color: #ffffff;
 }
+main h1 {
+  color: #4aaaa5;
+}
 #aboutmepicture {
   float: left;
 }
-main {
+.content {
+  margin: auto;
+  border: 2px black;
+  width: 960px;
   background-color: #ffffff;
 }
 footer {
