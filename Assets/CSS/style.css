@@ -2,14 +2,16 @@
   margin: 0;
   padding: 0;
 }
-nav li {
+#nav-ul li {
   display: inline;
   font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 5px;
 }
 nav ul a {
   text-decoration: none;
-  border-right: 5px #666666;
-  padding-bottom: 5px;
+  color: #666666;
+  border-right: 1px solid #cccccc;
+  padding: 5px;
 }
 nav {
   text-align: right;
@@ -70,7 +72,13 @@ figcaption {
   position: absolute;
   display: block;
   background-color: #4aaaa5;
+  color: #cccccc;
+}
+#submit {
+  background-color: #4aaaa5;
   color: #ffffff;
+  padding: 5px;
+  border: none;
 }
 .clearfix::after {
   content: "";
